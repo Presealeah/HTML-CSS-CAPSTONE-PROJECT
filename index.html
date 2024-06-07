@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOUTUBE UI CLONE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="top-container">
+        <div class="youtube-and-drop-down-container">
+          <div class="drop-down-icon-container">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="youtube-icon-container">
+            <img src="./IMAGES/download.png" alt="Youtube Logo" />
+          </div>
+        </div>
+        <div class="search-and-microphone-container">
+          <form class="form">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+          <div class="microphone-icon-container">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+        </div>
+        <div class="video-and-bell-container">
+          <div class="video-icon-container">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <div class="bell-icon-container">
+            <i class="fa-regular fa-bell"></i>
+          </div>
+          <div class="D-button-container">
+            <button>D</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <div class="left-bottom-container">
+          <div class="home-shorts-and-subscriptions-container">
+            <div class="home-and-home-icon-container">
+              <div class="home-icon-container">
+                <i class="fa-solid fa-house"></i>
+              </div>
+              <div class="home-text-container"><p>Home</p></div>
+            </div>
+            <div class="shorts-and-shorts-icon-container">
+              <div class="shorts-icon-container">
+                <img src="./ICONS/shorts icon.png" alt="Youtube Shorts Icon" />
+              </div>
+              <div class="shorts-text-container"><p>Shorts</p></div>
+            </div>
+            <div class="subscriptions-and-subscriptions-icon-container">
+              <div class="subscription-icon-container">
+                <img
+                  src="./ICONS/subscription.png"
+                  alt="Youtube Subscription Icon"
+                />
+              </div>
+              <div class="subscription-text-container">
+                <p>Subscriptions</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history-playlist-etc-container">
+            <div class="you-and-right-arrow-container">
+              <div class="you-text-container"><p>You</p></div>
+              <div class="arrow-icon-container">
+                <img src="./ICONS/right arrow.png" alt="Right Icon" />
+              </div>
+            </div>
+            <div class="history-and-history-icon-container">
+              <div class="history-icon-container">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+              </div>
+              <div class="history-text-container"><p>History</p></div>
+            </div>
+            <div class="playlist-and-playlists-icon-container">
+              <div class="playlist-icon-container">
+                <img src="./ICONS/playlist.png" alt="Playlist Icon" />
+              </div>
+              <div class="playlist-text-container"><p>Playlists</p></div>
+            </div>
+            <div class="watch-later-and-watch-later-icon-container">
+              <div class="watch-later-icon-container">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+              <div class="watch-later-text-container"><p>Watch Later</p></div>
+            </div>
+            <div class="liked-videos-and-liked-icon-container">
+              <div class="liked-videos-icon-container">
+                <i class="fa-regular fa-thumbs-up"></i>
+              </div>
+              <div class="liked-text-icon-container"><p>Liked videos</p></div>
+            </div>
+          </div>
+
+          <div class="explore-trending-etc-container">
+            <div class="explore-text-container"><p>Explore</p></div>
+            <div class="trending-and-trending-icon-container">
+              <div class="trending-icon-container">
+                <i class="fa-solid fa-fire"></i>
+              </div>
+              <div class="trending-text-container"><p>Trending</p></div>
+            </div>
+            <div class="music-and-music-icon-container">
+              <div class="music-icon-container">
+                <img src="./ICONS/music icon.png" alt="Music Icon" />
+              </div>
+              <div class="music-text-container"><p>Music</p></div>
+            </div>
+            <div class="gaming-and-gaming-icon-container">
+              <div class="gaming-icon-container">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <div class="gaming-text-container"><p>Gaming</p></div>
+            </div>
+            <div class="news-and-news-icon-container">
+              <div class="news-icon-container">
+                <i class="fa-regular fa-newspaper"></i>
+              </div>
+              <div class="news-text-container"><p>News</p></div>
+            </div>
+            <div class="sport-and-sport-icon-container">
+              <div class="sports-icon-container">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div class="sports-text-container"><p>Sport</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-bottom-container">
+          <div class="top-right-bottom-container">
+            <div class="container"><p id="all">All</p></div>
+            <div class="container"><p>Nollywood</p></div>
+            <div class="container"><p>Music</p></div>
+            <div class="container">
+              <p>Martial Arts Movies</p>
+            </div>
+            <div class="container">
+              <p>Action Thrillers</p>
+            </div>
+            <div class="container"><p>Gaming</p></div>
+            <div class="container"><p>Sketch comedy</p></div>
+            <div class="container"><p>News</p></div>
+            <div class="container"><p>Playlists</p></div>
+            <div class="container"><p>Live</p></div>
+            <div class="container"><p>Reggae</p></div>
+            <div class="container"><p>Premier League</p></div>
+          </div>
+
+          <div class="bottom-right-bottom-container">
+            <div class="card-container">
+              <div class="background-image-container"></div>
+
+              <div
+                class="channel-image-and-title-container-and-three-dot-container"
+              >
+                <div class="channel-image-and-title-container">
+                  <div class="channel-image-container">
+                    <img
+                      src="./IMAGES/elevation profile pic.jpg"
+                      alt="profile picture"
+                    />
+                  </div>
+                  <div class="title-container">
+                    <h1>
+                      Jireh, Same God, Refiner (feat. Dante Bowe & Tiffany
+                      Hudson) || Elevation..
+                    </h1>
+                  </div>
+                </div>
+                <div class="three-dot-container">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+
+              <div class="profile-name-text-and-views-container">
+                <div class="profile-name-container">
+                  <p>Gospel Collection</p>
+                </div>
+                <div class="views-container">
+                  <div class="views"><p>1.2M views</p></div>
+                  <div class="views"><p>.</p></div>
+                  <div class="views"><p>2 months ago</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="background-image-container-two"></div>
+
+              <div
+                class="channel-image-and-title-container-and-three-dot-container"
+              >
+                <div class="channel-image-and-title-container">
+                  <div class="channel-image-container">
+                    <img
+                      src="./IMAGES/korty profile pic.jpg"
+                      alt="profile picture"
+                    />
+                  </div>
+                  <div class="title-container">
+                    <h1>I met Tems, she was always angry.</h1>
+                  </div>
+                </div>
+                <div class="three-dot-container">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+
+              <div class="profile-name-text-and-views-container">
+                <div class="profile-name-container">
+                  <p>Korty eo</p>
+                </div>
+                <div class="views-container">
+                  <div class="views"><p>4.7K views</p></div>
+                  <div class="views"><p>.</p></div>
+                  <div class="views"><p>1 hour ago</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="background-image-container-three"></div>
+
+              <div
+                class="channel-image-and-title-container-and-three-dot-container"
+              >
+                <div class="channel-image-and-title-container">
+                  <div class="channel-image-container">
+                    <img
+                      src="./IMAGES/transformation church profile pic.jpg"
+                      alt="profile picture"
+                    />
+                  </div>
+                  <div class="title-container">
+                    <h1>
+                      Join us NOW for our Live Sunday Experience [10AM CT]
+                    </h1>
+                  </div>
+                </div>
+                <div class="three-dot-container">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+
+              <div class="profile-name-text-and-views-container">
+                <div class="profile-name-container">
+                  <p>Transformation Church</p>
+                </div>
+                <div class="views-container">
+                  <div class="views"><p>2M views</p></div>
+                  <div class="views"><p>.</p></div>
+                  <div class="views"><p>1 month ago</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="background-image-container-four"></div>
+
+              <div
+                class="channel-image-and-title-container-and-three-dot-container"
+              >
+                <div class="channel-image-and-title-container">
+                  <div class="channel-image-container">
+                    <img
+                      src="./IMAGES/ISWIS profile pic.jpg"
+                      alt="profile picture"
+                    />
+                  </div>
+                  <div class="title-container">
+                    <h1>The "Big Woman Age" Episode</h1>
+                  </div>
+                </div>
+                <div class="three-dot-container">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+
+              <div class="profile-name-text-and-views-container">
+                <div class="profile-name-container">
+                  <p>I Said What I Said Podcast</p>
+                </div>
+                <div class="views-container">
+                  <div class="views"><p>12K views</p></div>
+                  <div class="views"><p>.</p></div>
+                  <div class="views"><p>1 month ago</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="background-image-container-five"></div>
+
+              <div
+                class="channel-image-and-title-container-and-three-dot-container"
+              >
+                <div class="channel-image-and-title-container">
+                  <div class="channel-image-container">
+                    <img
+                      src="./IMAGES/maverick profile pic.jpg"
+                      alt="profile picture"
+                    />
+                  </div>
+                  <div class="title-container">
+                    <h1>
+                      Promises (feat. Joe L Barnes & Naomi Raine | Maverick City
+                      Music)
+                    </h1>
+                  </div>
+                </div>
+                <div class="three-dot-container">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+
+              <div class="profile-name-text-and-views-container">
+                <div class="profile-name-container">
+                  <p>Best Praise Songs</p>
+                </div>
+                <div class="views-container">
+                  <div class="views"><p>13K views</p></div>
+                  <div class="views"><p>.</p></div>
+                  <div class="views"><p>11 days ago</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="background-image-container-six"></div>
+
+              <div
+                class="channel-image-and-title-container-and-three-dot-container"
+              >
+                <div class="channel-image-and-title-container">
+                  <div class="channel-image-container">
+                    <img
+                      src="./IMAGES/ISWIS profile pic.jpg"
+                      alt="profile picture"
+                    />
+                  </div>
+                  <div class="title-container">
+                    <h1>The "International Woman's Day In The Mud" Episode</h1>
+                  </div>
+                </div>
+                <div class="three-dot-container">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+
+              <div class="profile-name-text-and-views-container">
+                <div class="profile-name-container">
+                  <p>I Said What I Said Podcast</p>
+                </div>
+                <div class="views-container">
+                  <div class="views"><p>9.9K views</p></div>
+                  <div class="views"><p>.</p></div>
+                  <div class="views"><p>2 years ago</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
